@@ -1,0 +1,70 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-bottom: 0.8rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+.task-input {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.remove-btn {
+  background-color: #ef4444;
+}
+
+.remove-btn:hover {
+  background-color: #b91c1c;
+}
+
+.status {
+  color: green;
+  font-weight: bold;
+}
